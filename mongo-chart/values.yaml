@@ -1,0 +1,10 @@
+replica_count: 2
+namespace: default
+image: nginx
+containerPort: 80
+
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
